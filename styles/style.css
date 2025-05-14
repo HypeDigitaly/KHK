@@ -400,3 +400,9 @@ div._6r9xee3.o231sh1 > * {
     position: relative;
     z-index: 1;
 }
+
+/* ================= HEADER STYLING ================= */
+.vfrc-header,
+div[class*="vfrc-header"] {
+  background-color: #FFFFFF !important;
+}
