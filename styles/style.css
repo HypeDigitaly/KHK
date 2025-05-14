@@ -437,10 +437,16 @@ div[class*="vfrc-header"] img.vfrc-avatar {
 }
 
 /* ================= CHAT WINDOW STYLING ================= */
-/* Targets the main chat window container */
+/* Targets the main chat window content area */
 div.vfrc-chat.s9t60i0 {
   border: 4px solid grey !important;
-  height: 70% !important;
-  /* Ensure border-radius is maintained if desired, or adjust as needed */
-  /* border-radius: 16px !important; */ /* This was an existing style, uncomment if border should be rounded */
+  height: 100% !important; /* Make it fill its parent container */
+  box-sizing: border-box !important; /* Include padding and border in the element's total width and height */
+  /* border-radius: 16px !important; */ /* This was an existing style from .s9t60i0, uncomment if corners should be rounded with the new border */
+}
+
+/* Targets the container of the chat window to control overall height */
+div._1xyscpy0 { /* This class from devtools is the parent of .vfrc-chat.s9t60i0 */
+  height: 70% !important; /* Shrink this container. Its original inline height was calc(100% - 104px).
+                             This 70% refers to its parent's (_1wkգ7nf3._1wkգ7nf6) height. */
 }
