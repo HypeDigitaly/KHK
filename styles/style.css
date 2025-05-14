@@ -413,6 +413,7 @@ img.vfrc-image {
   height: 150px !important;
   padding: 0 !important;
   margin: 0 !important;
+  margin-left: -10px !important;
   border-radius: 10px !important; /* Maintain existing border-radius from .i82k5b1 if desired, or remove if not */
   object-fit: cover !important; /* Added to ensure image covers the area well */
 }
