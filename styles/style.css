@@ -107,6 +107,14 @@ div.f6dof80:has(img[alt="open chat"]) {
   box-sizing: content-box !important;
   transform: none !important;
   aspect-ratio: 1/1 !important;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out !important; /* ADDED FOR SMOOTH HOVER */
+}
+
+/* Hover effect for the closed state avatar */
+.vfrc-button._1q15b0b0.c26d8x0._1q15b0b2.vfrc-launcher.f6dof81._1q15b0b0.c26d8x0._1q15b0b5 img.f6dof8u.f6dof8w.f6dof8h:hover,
+.vfrc-button._1q15b0b0.c26d8x0._1q15b0b2.vfrc-launcher.f6dof81._1q15b0b0.c26d8x0._1q15b0b5 img[alt="open chat"]:hover {
+  transform: scale(1.1) !important; /* Slightly enlarge on hover */
+  box-shadow: 0 0 15px 5px rgba(226, 29, 31, 0.7) !important; /* Red shadow */
 }
 
 /* Keyframes for the image glow pulse */
