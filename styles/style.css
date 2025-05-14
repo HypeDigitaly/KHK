@@ -407,11 +407,6 @@ div[class*="vfrc-header"] {
   background-color: #FFFFFF !important;
 }
 
-/* Style for the header button */
-.vfrc-header--button {
-  background-color: #E21D1F !important;
-}
-
 /* ================= CHATBOT AVATAR IMAGE STYLING ================= */
 img.vfrc-image {
   width: 150px !important;
@@ -420,4 +415,9 @@ img.vfrc-image {
   margin: 0 !important;
   border-radius: 10px !important; /* Maintain existing border-radius from .i82k5b1 if desired, or remove if not */
   object-fit: cover !important; /* Added to ensure image covers the area well */
+}
+
+/* ================= ICON COLOR STYLING ================= */
+.vfrc-icon {
+  color: #E21D1F !important;
 }
