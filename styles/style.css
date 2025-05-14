@@ -405,13 +405,6 @@ div._6r9xee3.o231sh1 > * {
 .vfrc-header,
 div[class*="vfrc-header"] {
   background-color: #FFFFFF !important;
-  /*width: 0 !important;
-  height: 0 !important;
-  min-height: 0 !important; /* Ensure min-height is also 0 */
-  padding: 0 !important; /* Remove padding */
-  margin: 0 !important; /* Remove margins */
-  overflow: hidden !important; /* Hide any content that might overflow */
-  border: none !important; /* Remove any borders */
 }
 
 /* ================= CHATBOT AVATAR IMAGE STYLING ================= */
