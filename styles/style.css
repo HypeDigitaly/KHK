@@ -440,7 +440,7 @@ div[class*="vfrc-header"] img.vfrc-avatar {
 /* Targets the main chat window content area */
 div.vfrc-chat.s9t60i0 {
   border: 8px solid #EEEEEE !important; /* Matched to message background grey */
-  border-radius: 25px !important; /* Added to match widget roundness */
+  border-radius: 50px !important; /* Added to match widget roundness */
 }
 
 .vfrc-header + div {
