@@ -389,8 +389,9 @@ div._6r9xee3.o231sh1 {
   position: relative !important;
   z-index: 0 !important;
   border-radius: 10px !important;
-  background-color: #E21D1F !important;
-  color: #1a1e23 !important;
+  background-color: #FFFFFF !important;
+  color: #E21D1F !important;
+  border: 2px solid #E21D1F !important;
   opacity: 1 !important;
 
   /* Restore ONLY scale pulse animation */
