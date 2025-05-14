@@ -407,6 +407,11 @@ div[class*="vfrc-header"] {
   background-color: #FFFFFF !important;
 }
 
+/* Style for the header button */
+.vfrc-header--button {
+  background-color: #E21D1F !important;
+}
+
 /* ================= CHATBOT AVATAR IMAGE STYLING ================= */
 img.vfrc-image {
   width: 150px !important;
