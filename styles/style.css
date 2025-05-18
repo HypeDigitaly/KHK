@@ -414,7 +414,7 @@ div._6r9xee3.o231sh1 > * {
 /* ================= HEADER STYLING ================= */
 .vfrc-header,
 div[class*="vfrc-header"] {
-  background-color: #FFFFFF !important;
+  background-color: #E21D1F !important;
 }
 
 /* ================= CHATBOT AVATAR IMAGE STYLING ================= */
@@ -422,10 +422,9 @@ img.vfrc-image {
   width: 150px !important;
   height: 150px !important;
   padding: 0 !important;
-  margin: 0 !important;
-  margin-left: -10px !important;
-  border-radius: 10px !important; /* Maintain existing border-radius from .i82k5b1 if desired, or remove if not */
-  object-fit: cover !important; /* Added to ensure image covers the area well */
+  margin-left: 40px !important;
+  border-radius: 10px !important;
+  object-fit: cover !important;
 }
 
 /* ================= ICON COLOR STYLING ================= */
