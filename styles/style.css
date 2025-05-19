@@ -136,7 +136,7 @@ button.vfrc-button._1q15b0b0.c26d8x0._1q15b0b2.vfrc-launcher.f6dof81._1q15b0b0.c
   min-height: 42px !important;
   max-width: 42px !important;
   max-height: 42px !important;
-  background-color: #E21D1F !important;
+  background-color: #F8263E !important;
   border-radius: 9999px !important;
   overflow: hidden !important;
   transform: none !important;
@@ -236,7 +236,7 @@ button[label="Cancel"] span,
 /* Start new chat translation - all variations */
 button[label="Start new chat"],
 #vfrc-start-chat {
-  background-color: #E21D1F !important;
+  background-color: #F8263E !important;
   border-radius: 4px !important;
   padding: 10px 20px !important;
 }
@@ -258,7 +258,7 @@ button[label="Start new chat"]::before,
 
 /* Cancel translation */
 button[label="Cancel"] {
-  background-color: #E21D1F !important;
+  background-color: #F8263E !important;
   border-radius: 4px !important;
   padding: 10px 20px !important;
 }
@@ -390,8 +390,8 @@ div._6r9xee3.o231sh1 {
   z-index: 0 !important;
   border-radius: 10px !important;
   background-color: #FFFFFF !important;
-  color: #E21D1F !important;
-  border: 2px solid #E21D1F !important;
+  color: #F8263E !important;
+  border: 2px solid #F8263E !important;
   opacity: 1 !important;
 
   /* Restore ONLY scale pulse animation */
@@ -414,7 +414,7 @@ div._6r9xee3.o231sh1 > * {
 /* ================= HEADER STYLING ================= */
 .vfrc-header,
 div[class*="vfrc-header"] {
-  background-color: #E21D1F !important;
+  background-color: #F8263E !important;
 }
 
 /* ================= CHATBOT AVATAR IMAGE STYLING ================= */
@@ -445,13 +445,6 @@ div[class*="vfrc-header"] img.vfrc-avatar {
   margin: 7px 0 0 -15px !important;  /* Updated: 10px top, 0 right, 0 bottom, -15px left margin */
 }
 
-/* ================= CHAT WINDOW STYLING ================= */
-/* Targets the main chat window content area */
-div.vfrc-chat.s9t60i0 {
-  border: 8px solid #EEEEEE !important; /* Matched to message background grey */
-  border-radius: 50px !important; /* Added to match widget roundness */
-}
-
 .vfrc-header + div {
     scrollbar-width: auto;
 }
@@ -460,4 +453,3 @@ div.vfrc-chat.s9t60i0 {
   color: #FFFFFF !important;
   fill: #FFFFFF !important;
 }
-
