@@ -61,6 +61,7 @@ div.f6dof87.f6dof89 {
   position: fixed !important;
   bottom: 15px !important;
   right: 15px !important;
+  border: 2px solid #F8263E !important;
 }
 
 /* Additional selectors for parent container in closed state */
@@ -149,6 +150,7 @@ button.vfrc-button._1q15b0b0.c26d8x0._1q15b0b2.vfrc-launcher.f6dof81._1q15b0b0.c
   position: relative !important; /* Override fixed position from the default */
   bottom: auto !important; /* Override bottom from the default */
   right: auto !important; /* Override right from the default */
+  border: none !important;
 }
 
 /* Additional selectors for parent container in opened state */
