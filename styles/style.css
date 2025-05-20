@@ -48,7 +48,12 @@ div.f6dof87.f6dof89 {
   max-width: 100px !important;
   max-height: 100px !important;
   background-color: transparent !important;
-  border: none !important;
+  border: 2px solid #F8263E !important;
+  border-color: #F8263E !important;
+  border-width: 2px !important;
+  border-style: solid !important;
+  box-shadow: none !important;
+  outline: none !important;
   border-radius: 50px !important;
   overflow: visible !important;
   display: flex !important;
@@ -61,7 +66,6 @@ div.f6dof87.f6dof89 {
   position: fixed !important;
   bottom: 15px !important;
   right: 15px !important;
-  border: 2px solid #F8263E !important;
 }
 
 /* Additional selectors for parent container in closed state */
